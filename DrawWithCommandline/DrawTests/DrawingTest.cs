@@ -1,13 +1,12 @@
 ﻿using DrawWithCommandline;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-
+using System.Windows.Forms;
 
 namespace DrawTests
 {
     [TestClass]
     public class DrawingTests
-
     {
 
         [TestMethod]
