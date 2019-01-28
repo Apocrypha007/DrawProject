@@ -67,11 +67,12 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.CadetBlue;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(36, 36);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1362, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1295, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -89,21 +90,21 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.openToolStripMenuItem.Text = "Open Command";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.saveToolStripMenuItem.Text = "Save Command";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -126,8 +127,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.btnSave);
             this.splitContainer1.Panel2.Controls.Add(this.btnRun);
             this.splitContainer1.Panel2.Controls.Add(this.txtCommand);
-            this.splitContainer1.Size = new System.Drawing.Size(1362, 605);
-            this.splitContainer1.SplitterDistance = 813;
+            this.splitContainer1.Size = new System.Drawing.Size(1295, 640);
+            this.splitContainer1.SplitterDistance = 660;
             this.splitContainer1.TabIndex = 1;
             // 
             // panelPaint
@@ -136,7 +137,7 @@
             this.panelPaint.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPaint.Location = new System.Drawing.Point(0, 0);
             this.panelPaint.Name = "panelPaint";
-            this.panelPaint.Size = new System.Drawing.Size(809, 601);
+            this.panelPaint.Size = new System.Drawing.Size(656, 636);
             this.panelPaint.TabIndex = 0;
             this.panelPaint.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPaint_Paint);
             this.panelPaint.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelPaint_MouseClick);
@@ -148,7 +149,7 @@
             // 
             this.btnClearAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClearAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearAll.Location = new System.Drawing.Point(463, 104);
+            this.btnClearAll.Location = new System.Drawing.Point(547, 104);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(75, 24);
             this.btnClearAll.TabIndex = 4;
@@ -160,7 +161,7 @@
             // 
             this.btnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpen.Location = new System.Drawing.Point(463, 75);
+            this.btnOpen.Location = new System.Drawing.Point(547, 75);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(75, 23);
             this.btnOpen.TabIndex = 3;
@@ -172,7 +173,7 @@
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(463, 46);
+            this.btnSave.Location = new System.Drawing.Point(547, 46);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 2;
@@ -184,7 +185,7 @@
             // 
             this.btnRun.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRun.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRun.Location = new System.Drawing.Point(463, 17);
+            this.btnRun.Location = new System.Drawing.Point(547, 17);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(75, 23);
             this.btnRun.TabIndex = 1;
@@ -194,8 +195,8 @@
             // 
             // txtCommand
             // 
-            this.txtCommand.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.txtCommand.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCommand.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.txtCommand.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -203,7 +204,7 @@
             this.txtCommand.Multiline = true;
             this.txtCommand.Name = "txtCommand";
             this.txtCommand.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtCommand.Size = new System.Drawing.Size(457, 601);
+            this.txtCommand.Size = new System.Drawing.Size(541, 636);
             this.txtCommand.TabIndex = 0;
             this.txtCommand.TextChanged += new System.EventHandler(this.txtCommand_TextChanged);
             // 
@@ -233,8 +234,8 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.splitContainer1);
-            this.splitContainer3.Size = new System.Drawing.Size(1362, 717);
-            this.splitContainer3.SplitterDistance = 108;
+            this.splitContainer3.Size = new System.Drawing.Size(1295, 757);
+            this.splitContainer3.SplitterDistance = 113;
             this.splitContainer3.TabIndex = 0;
             // 
             // btnPolygon
@@ -243,7 +244,7 @@
             this.btnPolygon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPolygon.FlatAppearance.BorderSize = 0;
             this.btnPolygon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPolygon.Location = new System.Drawing.Point(228, 3);
+            this.btnPolygon.Location = new System.Drawing.Point(198, 11);
             this.btnPolygon.Name = "btnPolygon";
             this.btnPolygon.Size = new System.Drawing.Size(69, 52);
             this.btnPolygon.TabIndex = 0;
@@ -256,7 +257,7 @@
             this.btnCircle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCircle.FlatAppearance.BorderSize = 0;
             this.btnCircle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCircle.Location = new System.Drawing.Point(181, -4);
+            this.btnCircle.Location = new System.Drawing.Point(138, 4);
             this.btnCircle.Name = "btnCircle";
             this.btnCircle.Size = new System.Drawing.Size(54, 64);
             this.btnCircle.TabIndex = 0;
@@ -267,7 +268,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 66);
+            this.label1.Location = new System.Drawing.Point(33, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 15);
             this.label1.TabIndex = 5;
@@ -288,7 +289,7 @@
             // 
             this.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboSize.FormattingEnabled = true;
-            this.cboSize.Location = new System.Drawing.Point(99, 66);
+            this.cboSize.Location = new System.Drawing.Point(108, 73);
             this.cboSize.Name = "cboSize";
             this.cboSize.Size = new System.Drawing.Size(121, 21);
             this.cboSize.TabIndex = 2;
@@ -300,7 +301,7 @@
             this.btnChooseColor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnChooseColor.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
             this.btnChooseColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChooseColor.Location = new System.Drawing.Point(339, 17);
+            this.btnChooseColor.Location = new System.Drawing.Point(273, 28);
             this.btnChooseColor.Name = "btnChooseColor";
             this.btnChooseColor.Size = new System.Drawing.Size(67, 62);
             this.btnChooseColor.TabIndex = 1;
@@ -313,7 +314,7 @@
             this.btnTriangle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTriangle.FlatAppearance.BorderSize = 0;
             this.btnTriangle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTriangle.Location = new System.Drawing.Point(130, 3);
+            this.btnTriangle.Location = new System.Drawing.Point(75, 11);
             this.btnTriangle.Name = "btnTriangle";
             this.btnTriangle.Size = new System.Drawing.Size(67, 49);
             this.btnTriangle.TabIndex = 0;
@@ -326,7 +327,7 @@
             this.btnRectangle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRectangle.FlatAppearance.BorderSize = 0;
             this.btnRectangle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRectangle.Location = new System.Drawing.Point(91, 1);
+            this.btnRectangle.Location = new System.Drawing.Point(36, 11);
             this.btnRectangle.Name = "btnRectangle";
             this.btnRectangle.Size = new System.Drawing.Size(47, 51);
             this.btnRectangle.TabIndex = 0;
@@ -339,7 +340,7 @@
             this.btnEraser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnEraser.FlatAppearance.BorderSize = 0;
             this.btnEraser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEraser.Location = new System.Drawing.Point(49, 8);
+            this.btnEraser.Location = new System.Drawing.Point(761, 28);
             this.btnEraser.Name = "btnEraser";
             this.btnEraser.Size = new System.Drawing.Size(36, 40);
             this.btnEraser.TabIndex = 0;
@@ -352,24 +353,24 @@
             this.btnPen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPen.FlatAppearance.BorderSize = 0;
             this.btnPen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPen.Location = new System.Drawing.Point(10, 3);
+            this.btnPen.Location = new System.Drawing.Point(693, 24);
             this.btnPen.Name = "btnPen";
             this.btnPen.Size = new System.Drawing.Size(33, 49);
             this.btnPen.TabIndex = 0;
             this.btnPen.UseVisualStyleBackColor = true;
             this.btnPen.Click += new System.EventHandler(this.btnPen_Click);
             // 
-            // MsPaint
+            // Draw
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 741);
+            this.ClientSize = new System.Drawing.Size(1295, 781);
             this.Controls.Add(this.splitContainer3);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.MinimumSize = new System.Drawing.Size(800, 600);
-            this.Name = "MsPaint";
-            this.Text = "MS PAINT";
+            this.MinimumSize = new System.Drawing.Size(618, 379);
+            this.Name = "Draw";
+            this.Text = "Draw With Command Line";
             this.Load += new System.EventHandler(this.MsPaint_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
