@@ -1,4 +1,4 @@
-﻿using Paint;
+﻿using DrawWithCommandline;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Shapes
 {
     [Serializable]
-    class Rectangles : DrawWithCommandline.Shape
+    class Rectangles : Shape
     {
         public int x { get; set; }
         public int y { get; set; }
