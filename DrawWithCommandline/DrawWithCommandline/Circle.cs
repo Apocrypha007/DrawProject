@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Shapes
 {
     [Serializable]
-    class Circle : DrawWithCommandline.Shape
+    class Circle : Shape
 
     {
         public int x { get; set; }
