@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DrawWithCommandline")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("The program to draw different shapes with the help of command")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Bikash Gurung")]
 [assembly: AssemblyProduct("DrawWithCommandline")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]

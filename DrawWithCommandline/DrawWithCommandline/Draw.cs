@@ -929,11 +929,6 @@ namespace DrawWithCommandline
 
         }
 
-        private void panelPaint_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void DrawRectangle(int width, int height)
         {
             Pen myPen = new Pen(mainColor);
